@@ -1,0 +1,111 @@
+/home/lp20.17/Desktop/Laboratori/ese1/tb_mux21_glitch.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/tb_mux21_glitch.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tbmux21bis
+-- Compiling architecture test of tbmux21bis
+-- Compiling configuration mux21bistest
+-- Loading entity tbmux21bis
+-- Loading architecture test of tbmux21bis
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity tbrca
+-- Compiling architecture test of tbrca
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/fa.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/fa.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture behavioral of fa
+-- Compiling configuration cfg_fa_behavioral
+-- Loading entity fa
+-- Loading architecture behavioral of fa
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/ha.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/ha.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ha
+-- Compiling architecture behavioral of ha
+-- Compiling configuration cfg_ha_behavioral
+-- Loading entity ha
+-- Loading architecture behavioral of ha
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/fd.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture pippo of fd
+-- Compiling architecture pluto of fd
+-- Loading entity fd
+-- Compiling configuration cfg_fd_pippo
+-- Loading entity fd
+-- Loading architecture pippo of fd
+-- Compiling configuration cfg_fd_pluto
+-- Loading entity fd
+-- Loading architecture pluto of fd
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/tb_rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/tb_rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity tbrca
+-- Compiling architecture test of tbrca
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/uscite.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/uscite.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity uscite
+-- Compiling architecture str of uscite
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/lfsr.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lfsr16
+-- Compiling architecture rtl of lfsr16
+
+} {} {}} /home/lp20.17/Desktop/Laboratori/ese1/fa_syn.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/ese1/fa_syn.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture behavioral of fa
+-- Compiling configuration cfg_fa_behavioral
+-- Loading entity fa
+-- Loading architecture behavioral of fa
+
+} {} {}}

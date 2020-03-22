@@ -1,0 +1,330 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Lab1
+# Compile of counter.vhd failed with 1 errors.
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_counter.vhd failed with 1 errors.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# 13 compiles, 2 failed with 2 errors. 
+vsim -t 100ps work.tbprob
+# vsim -t 100ps work.tbprob 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tbprob(test)#1
+power add *
+run 100 ns
+add wave *
+run 100 ns
+quit -sim
+vsim -t 100ps work.tbprob
+# vsim -t 100ps work.tbprob 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tbprob(test)#1
+power add *
+add wave *
+run 100 ns
+power report
+# 
+# Power Report Interval
+# 100000 ps
+# 
+# Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+# ---------------------------------------------------------------------------------------------
+#                              /tbprob/clk    200      0     50000 ps     50000 ps         0 ps
+#                            /tbprob/reset      1      0      1000 ps     99000 ps         0 ps
+#                               /tbprob/ld      1      0      2000 ps     98000 ps         0 ps
+#                         /tbprob/dout(15)     51      0     50500 ps     49500 ps         0 ps
+#                         /tbprob/dout(14)     50      0     50000 ps     50000 ps         0 ps
+#                         /tbprob/dout(13)     49      0     49500 ps     50500 ps         0 ps
+#                         /tbprob/dout(12)     48      0     49000 ps     51000 ps         0 ps
+#                         /tbprob/dout(11)     47      0     48500 ps     51500 ps         0 ps
+#                         /tbprob/dout(10)     46      0     48000 ps     52000 ps         0 ps
+#                          /tbprob/dout(9)     46      0     48000 ps     52000 ps         0 ps
+#                          /tbprob/dout(8)     46      0     48000 ps     52000 ps         0 ps
+#                          /tbprob/dout(7)     45      0     47500 ps     52500 ps         0 ps
+#                          /tbprob/dout(6)     45      0     46500 ps     53500 ps         0 ps
+#                          /tbprob/dout(5)     44      0     46000 ps     54000 ps         0 ps
+#                          /tbprob/dout(4)     44      0     46000 ps     54000 ps         0 ps
+#                          /tbprob/dout(3)     44      0     46000 ps     54000 ps         0 ps
+#                          /tbprob/dout(2)     43      0     45500 ps     54500 ps         0 ps
+#                          /tbprob/dout(1)     42      0     45000 ps     55000 ps         0 ps
+#                          /tbprob/dout(0)     43      0     47500 ps     52500 ps         0 ps
+# ---------------------------------------------------------------------------------------------
+# 
+power report pow_rep_1_1
+# ** Error: (vsim-4006) Unexpected argument 'pow_rep_1_1'.
+# Usage: power report [-all] [-file <filename>] [-noheader] [-bsaif <filename>]
+power report-file pow_rep_1_1
+# ** Error: (vsim-4003) Invalid option 'report-file'.
+# Usage:
+#   power add <options>
+#   power report <options>
+#   power reset <options>
+# 
+power report- file pow_rep_1_1
+# ** Error: (vsim-4003) Invalid option 'report-'.
+# Usage:
+#   power add <options>
+#   power report <options>
+#   power reset <options>
+# 
+power report -file pow_rep_1_1
+add wave sim:/tbprob/*
+add wave -r sim:/tbprob/*
+add wave -r /*
+add wave clock
+# (vish-4014) No objects found matching 'clock'.
+add wave clk
+add wave -r /*
+add wave -r sim:/tbprob/*
+add wave -r /*
+quit -sim
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd failed with 1 errors.
+# 12 compiles, 2 failed with 2 errors. 
+# Quit canceled
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 1 failed with 1 error. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 1 failed with 1 error. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 1 failed with 1 error. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd failed with 1 errors.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 1 failed with 1 error. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -t 100ps work.tbprob
+# vsim -t 100ps work.tbprob 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading work.tbprob(test)#1
+add wave *
+power add *
+add wave -r sim:/tbprob/*
+# Optimization canceled
+# Optimization canceled
+quit -sim
+vsim -t 100ps -novopt work.tbprob
+# vsim -t 100ps -novopt work.tbprob 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.tbprob(test)
+# Loading work.tbprob(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.uscite(str)
+# Loading work.uscite(str)
+power add *
+add wave *
+run 10 ns
+power report -file pow1_1_20Tc
+quit -sim
+# Optimization canceled
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -t 100ps -novopt work.tbprob
+# vsim -t 100ps -novopt work.tbprob 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.tbprob(test)
+# Loading work.tbprob(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+quit -sim
+# Window cannot be closed because the modal window "Question" is still open.
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+vsim -t 100ps -novopt work.tbprob
+# vsim -t 100ps -novopt work.tbprob 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.tbprob(test)
+# Loading work.tbprob(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+power add *
+add wave *
+run 10 ns
+power report -file pow1_1_20Tc
+# Load canceled
+restart
+run 100 ns
+power report -file pow1_1_200Tc
+# ** Warning: (vsim-3315) Power checking is not enabled.
+# 
+power add *
+power report -file pow1_1_200Tc
+restart
+power add *
+run 100 ns
+power report -file pow1_1_200Tc
+restart
+power add *
+run 1000 ns
+power report -file pow1_1_2000Tc
+restart 
+power add *
+run 10000 ns 
+power report -file pow1_1_20000Tc
+restart
+power add *
+run 100000 ns
+power report -file pow1_1_200000Tc

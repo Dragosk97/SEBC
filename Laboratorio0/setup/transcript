@@ -1,0 +1,190 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+vcom -reportprogress 300 -work work /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+vcom -reportprogress 300 -work work /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+vcom -reportprogress 300 -work work /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+vcom -reportprogress 300 -work work /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/constants.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+./compile
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package constants
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity iv
+# -- Compiling architecture behavioral of iv
+# -- Compiling configuration cfg_iv_behavioral
+# -- Loading entity iv
+# -- Loading architecture behavioral of iv
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity nd2
+# -- Compiling architecture arch1 of nd2
+# -- Compiling architecture arch2 of nd2
+# -- Loading entity nd2
+# -- Compiling configuration cfg_nd2_arch1
+# -- Loading entity nd2
+# -- Loading architecture arch1 of nd2
+# -- Compiling configuration cfg_nd2_arch2
+# -- Loading entity nd2
+# -- Loading architecture arch2 of nd2
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity mux21
+# -- Compiling architecture behavioral_1 of mux21
+# -- Compiling architecture behavioral_2 of mux21
+# -- Loading entity mux21
+# -- Compiling architecture behavioral_3 of mux21
+# -- Loading entity mux21
+# -- Compiling architecture structural of mux21
+# -- Loading entity mux21
+# -- Compiling configuration cfg_mux21_behavioral_1
+# -- Loading entity mux21
+# -- Loading architecture behavioral_1 of mux21
+# -- Compiling configuration cfg_mux21_behavioral_2
+# -- Loading entity mux21
+# -- Loading architecture behavioral_2 of mux21
+# -- Compiling configuration cfg_mux21_behavioral_3
+# -- Loading entity mux21
+# -- Loading architecture behavioral_3 of mux21
+# -- Compiling configuration cfg_mux21_structural
+# -- Loading entity mux21
+# -- Loading architecture structural of mux21
+# -- Loading entity iv
+# -- Loading entity nd2
+# -- Loading configuration cfg_iv_behavioral
+# -- Loading configuration cfg_nd2_arch2
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity tbmux21
+# -- Compiling architecture test of tbmux21
+# -- Compiling configuration mux21test
+# -- Loading entity tbmux21
+# -- Loading architecture test of tbmux21
+# -- Loading entity mux21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# -- Loading configuration cfg_mux21_structural
+dataset reload -f
+# wrong number of args for "dataset info".
+# Usage: dataset info <option> <dataset_name>
+vcom tb_mux21.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package constants
+# -- Compiling entity tbmux21
+# -- Compiling architecture test of tbmux21
+# -- Compiling configuration mux21test
+# -- Loading entity tbmux21
+# -- Loading architecture test of tbmux21
+# -- Loading entity mux21
+# -- Loading configuration cfg_mux21_behavioral_1
+# -- Loading configuration cfg_mux21_behavioral_2
+# -- Loading configuration cfg_mux21_behavioral_3
+# -- Loading configuration cfg_mux21_structural
+vsim -t 100ps -novopt work.mux21test
+# vsim -t 100ps -novopt work.mux21test 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.constants
+# Loading work.constants
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.mux21test
+# Loading work.mux21test
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.tbmux21(test)
+# Loading work.tbmux21(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_mux21_behavioral_1
+# Loading work.cfg_mux21_behavioral_1
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.mux21(behavioral_1)
+# Loading work.mux21(behavioral_1)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_mux21_behavioral_2
+# Loading work.cfg_mux21_behavioral_2
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.mux21(behavioral_2)
+# Loading work.mux21(behavioral_2)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_mux21_behavioral_3
+# Loading work.cfg_mux21_behavioral_3
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.mux21(behavioral_3)
+# Loading work.mux21(behavioral_3)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_mux21_structural
+# Loading work.cfg_mux21_structural
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.mux21(structural)
+# Loading work.mux21(structural)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_iv_behavioral
+# Loading work.cfg_iv_behavioral
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.iv(behavioral)
+# Loading work.iv(behavioral)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.cfg_nd2_arch2
+# Loading work.cfg_nd2_arch2
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio0/setup/work.nd2(arch2)
+# Loading work.nd2(arch2)
+add wave *
+run 3 ns
+run 10000 ps
+run
+run -all
+add wave *
+run 10000 ps
+add wave *
+# (vish-4014) No objects found matching '*'.
+run 10000 ps
+# Load canceled
+quit -sim
+vsim -t 100ps -novopt work.mux21test
+# vsim -t 100ps -novopt work.mux21test 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.mux21test
+# Loading work.tbmux21(test)
+# Loading work.cfg_mux21_behavioral_1
+# Loading work.mux21(behavioral_1)
+# Loading work.cfg_mux21_behavioral_2
+# Loading work.mux21(behavioral_2)
+# Loading work.cfg_mux21_behavioral_3
+# Loading work.mux21(behavioral_3)
+# Loading work.cfg_mux21_structural
+# Loading work.mux21(structural)
+# Loading work.cfg_iv_behavioral
+# Loading work.iv(behavioral)
+# Loading work.cfg_nd2_arch2
+# Loading work.nd2(arch2)
+add wave *
+run 10 ns
+evince tbmux21.ps &
+# 30035
+evince wave.ps &
+# 30717
+evince wave.ps &
+# 30716

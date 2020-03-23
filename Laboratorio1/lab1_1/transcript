@@ -1,0 +1,107 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project Lab1
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# Compile of uscite.vhd was successful.
+# 12 compiles, 0 failed with no errors. 
+# Optimization canceled
+vsim -novopt work.tbrca(test)
+# vsim -novopt work.tbrca(test) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.tbrca(test)
+# Loading work.tbrca(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.rca(structural)
+# Loading work.rca(structural)
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(30): No default binding for component at 'uadder1'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder1
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(30): No default binding for component at 'uadder1'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder1
+# Refreshing /home/lp20.17/Desktop/Laboratori/ese1/work.fa(behavioral)
+# Loading work.fa(behavioral)
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(33): No default binding for component at 'uadder2'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder2
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(33): No default binding for component at 'uadder2'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder2
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder2/adder1__1/fai
+# Error loading design
+vsim -t 100ps -novopt work.tbrca
+# vsim -t 100ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbrca(test)
+# Loading work.rca(structural)
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(30): No default binding for component at 'uadder1'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder1
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(30): No default binding for component at 'uadder1'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder1
+# Loading work.fa(behavioral)
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(33): No default binding for component at 'uadder2'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder2
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/tb_rca2.vhd(33): No default binding for component at 'uadder2'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder2
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcac' is not on the entity.)
+#         Region: /tbrca/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/lp20.17/Desktop/Laboratori/ese1/rca_syn.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'drcas' is not on the entity.)
+#         Region: /tbrca/uadder2/adder1__1/fai
+# Error loading design

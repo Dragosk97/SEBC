@@ -1,0 +1,27 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file /home/lp20.17/Desktop/Laboratori/ese1/Lab1.mpf was not found.
+# Unable to open project.
+# Loading project lab1_2
+# Compile of counter.vhd failed with 1 errors.
+# Compile of fa.vhd was successful.
+# Compile of fa_syn.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of rca_syn.vhd was successful.
+# Compile of tb_counter.vhd failed with 1 errors.
+# Compile of tb_mux21_glitch.vhd was successful.
+# Compile of tb_prob.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of tb_rca2.vhd was successful.
+# 13 compiles, 2 failed with 2 errors. 

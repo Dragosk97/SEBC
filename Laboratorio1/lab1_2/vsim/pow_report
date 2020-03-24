@@ -1,0 +1,4 @@
+vsim power add *
+vsim run 100 ns
+vsim power report -file pow_report.txt
+

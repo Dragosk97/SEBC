@@ -8,20 +8,124 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Project file /home/lp20.17/Desktop/Laboratori/ese1/Lab1.mpf was not found.
-# Unable to open project.
 # Loading project lab1_2
-# Compile of counter.vhd failed with 1 errors.
+# Load canceled
 # Compile of fa.vhd was successful.
-# Compile of fa_syn.vhd was successful.
-# Compile of fd.vhd was successful.
-# Compile of ha.vhd was successful.
-# Compile of lfsr.vhd was successful.
 # Compile of rca.vhd was successful.
-# Compile of rca_syn.vhd was successful.
-# Compile of tb_counter.vhd failed with 1 errors.
-# Compile of tb_mux21_glitch.vhd was successful.
-# Compile of tb_prob.vhd was successful.
 # Compile of tb_rca.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -t 100ps -novopt work.tbrca
+# vsim -t 100ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbrca(test)
+# Loading work.tbrca(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.rca(structural)
+# Loading work.rca(structural)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.fa(behavioral)
+# Loading work.fa(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+power add *
+add wave *
+quit -sim
+# Compile of fa.vhd was successful.
+# Compile of rca.vhd was successful.
+# Compile of tb_rca.vhd was successful.
+# Compile of lfsr.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -t 10ps -novopt work.tbrca
+# vsim -t 10ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbrca(test)
+# Loading work.tbrca(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.rca(structural)
+# Loading work.rca(structural)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.fa(behavioral)
+# Loading work.fa(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+power add *
+add wave *
+run 100 ns
+power report -file power_rca
+restart
+power add *
+run 10000 ns
+power report -file power_rca
+restart
+power add *
+run 100000 ns
+power report -file power_rca
+exit -sim
+# Compile of tb_rca.vhd was successful.
+vsim -t 10ps -novopt work.tbrca
+# vsim -t 10ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbrca(test)
+# Loading work.tbrca(test)
+# Loading work.rca(structural)
+# Loading work.fa(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading work.lfsr16(rtl)
+power add *
+add wave *
+run 200000 ns 
+power report -file power_rca_delay
+restart
+power add *
+run 100000 ns
+power report -file power_rca_delay
+restart
+run 100 ns
+restart
+power add *
+quit -sim
+vsim -t ps -novopt work.tbrca
+# vsim -t ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tbrca(test)
+# Loading work.rca(structural)
+# Loading work.fa(behavioral)
+# Loading ieee.std_logic_arith(body)
+# Loading work.lfsr16(rtl)
+power add *
+add wave *
+run 100000 ns  
+power report -file power_rca_delay
+restart 
+add wave *
+run 100 ns
+# Postscript write failed: couldn't open "/home/lp20.17/Desktop/prova_fc/setup/wave.ps": no such file or directory
+exit -sim
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project lab1_2_2
+# Compile of fa.vhd was successful.
+# Compile of rca.vhd was successful.
 # Compile of tb_rca2.vhd was successful.
-# 13 compiles, 2 failed with 2 errors. 
+# 3 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.tbrca
+# vsim -t ps -novopt work.tbrca 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbrca(test)
+# Loading work.tbrca(test)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.rca(structural)
+# Loading work.rca(structural)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.fa(behavioral)
+# Loading work.fa(behavioral)
+power add *
+add wave *
+run 10 ns
+power report -file power_rca_tb2

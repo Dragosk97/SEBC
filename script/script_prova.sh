@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1"
+echo per me si va > "$1" 

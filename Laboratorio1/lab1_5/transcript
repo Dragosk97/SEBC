@@ -1,0 +1,119 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4/lab1_1_4.mpf was not found.
+# Unable to open project.
+# Loading project lab_1_5
+# Compile of counter.vhd failed with 1 errors.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of tb_counter.vhd failed with 1 errors.
+# 4 compiles, 2 failed with 2 errors. 
+# Compile of counter.vhd was successful.
+# Compile of tb_counter.vhd was successful.
+# Optimization canceled
+vsim -novopt work.testcount
+# vsim -novopt work.testcount 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.testcount(test)
+# Loading work.testcount(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.count(structural)
+# Loading work.count(structural)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.ha(behavioral)
+# Loading work.ha(behavioral)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.fd(pluto)
+# Loading work.fd(pluto)
+power add /testcount/UCOUNTER1/*
+add wave *
+run 520 ns
+vsim -t 100ps -novopt work.testcount
+# vsim -t 100ps -novopt work.testcount 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testcount(test)
+# Loading work.count(structural)
+# Loading work.ha(behavioral)
+# Loading work.fd(pluto)
+add wave *
+run 520 ns
+# Postscript write failed: couldn't open "/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_5/counter_glitch.ps": no such file or directory
+# Postscript write failed: couldn't open "/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_5/counter_glitch_6ns.ps": no such file or directory
+add wave -r sim:/testcount/ucounter1/*
+add wave*
+# wrong number of args for "add wave*".
+# Usage: add wave [-allowconstants] [-clampanalog [0|1]] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-noupdate] [-optcells] [-position] [-radix <type> | <radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 sig3 ...}}] 
+add wave * 
+# Load canceled
+restart
+power add /testcount/UCOUNTER/*
+# ** Error: (vsim-3561) No objects found matching 'UCOUNTER'.
+# ** Warning: (vsim-8431) The 'power add' command works only on nets/signals
+# 
+add wave \
+{sim:/testcount/clk } \
+{sim:/testcount/reset } \
+{sim:/testcount/counten } \
+{sim:/testcount/owfl } \
+{sim:/testcount/countout } 
+add wave \
+{sim:/testcount/ucounter1/s } 
+run 520 ns
+add wave \
+{sim:/testcount/ucounter1/hadder1__2/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__1/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__3/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__4/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__5/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__6/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__7/hai/co } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__8/hai/co } 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/wave_1_5.do
+add wave \
+{sim:/testcount/ucounter1/hadder1__1/hai/s } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__2/hai/s } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__3/hai/s } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__4/hai/s } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__5/hai/s } 
+add wave \
+{sim:/testcount/ucounter1/hadder1__6/hai/s } 
+add wave sim:/testcount/ucounter1/hadder1__7/hai/line__16/*
+# (vish-4014) No objects found matching '/testcount/ucounter1/hadder1__7/hai/line__16/*'.
+add wave sim:/testcount/ucounter1/hadder1__8/hai/line__16/*
+# (vish-4014) No objects found matching '/testcount/ucounter1/hadder1__8/hai/line__16/*'.
+add wave \
+{sim:/testcount/ucounter1/hadder1__8/hai/s } 
+add wave sim:/testcount/ucounter1/hadder1__7/hai/line__16/*
+# (vish-4014) No objects found matching '/testcount/ucounter1/hadder1__7/hai/line__16/*'.
+add wave \
+{sim:/testcount/ucounter1/hadder1__7/hai/s } 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/wave_1_5.do
+report_power > pow_count
+# invalid command name "report_power"
+report_power
+# invalid command name "report_power"
+power report -file pow_count
+# ** Warning: (vsim-3315) Power checking is not enabled.
+# 
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/wave_1_5.do
+restart

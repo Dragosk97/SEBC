@@ -1,0 +1,39 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lab1_2_2
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project lab1_1_4
+# Compile of tb_mux21_glitch.vhd was successful.
+vsim -t ps work.tbmux21bis
+# vsim -t ps work.tbmux21bis 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.tbmux21bis(test)#1
+add wave *
+# (vish-4014) No objects found matching '*'.
+restart
+quit -sim
+vsim -t ps -novopt work.tbmux21bis
+# vsim -t ps -novopt work.tbmux21bis 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4/work.tbmux21bis(test)
+# Loading work.tbmux21bis(test)
+add wave *
+# (vish-4014) No objects found matching '*'.
+run 10 ns
+add wave *
+add dataflow sim:/tbmux21bis/*
+restart
+run 2 ns
+add dataflow sim:/tbmux21bis/*
+# Printing 1 page(s) to file /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4/mux_netlist.ps 

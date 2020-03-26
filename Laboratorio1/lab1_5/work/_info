@@ -1,0 +1,218 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5
+Ccfg_count_structural
+astructural
+ecount
+Z1 DEx4 work 2 fd 0 22 bG2dXfE`Fo>HFh3jAS47G3
+Z2 DEx4 work 2 ha 0 22 bU?CZVOOkUfLJ:iohh2UA2
+DCx4 work 12 cfg_fd_pluto 0 22 znSd1`<4c_;h5^9ScPfLA2
+DCx4 work 17 cfg_ha_behavioral 0 22 1MM51bHDCb8_l=XNXllcc1
+DAx4 work 5 count 10 structural 22 K14WocoE9i3Kj;e>zLlI>0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z4 DEx4 work 5 count 0 22 fAmc2hIc6YTle[ZS4V9SW3
+Z5 w1584556515
+Z6 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/counter.vhd
+Z7 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/counter.vhd
+l0
+L51
+V8EYRDb]CYKHE8FIM?>@1D0
+Z8 OL;C;6.5c;42
+32
+Z9 Mx1 4 ieee 14 std_logic_1164
+Z10 o-work work -2002 -explicit
+Z11 tExplicit 1
+!s100 zlhnhN3;`^HfcBhOS0zVU3
+Ccfg_fd_pippo
+apippo
+efd
+DAx4 work 2 fd 5 pippo 22 MT08ke;c3R8U4VfUIK^l?0
+R3
+R1
+R5
+Z12 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/fd.vhd
+Z13 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/fd.vhd
+l0
+L44
+V2VVTFnFT0M0PVcQ:g<cB21
+R8
+32
+R9
+R10
+R11
+!s100 IC;L@nmI5D^J^af;ej@EZ3
+Ccfg_fd_pluto
+apluto
+efd
+DAx4 work 2 fd 5 pluto 22 i>SlU_I2igD9NGRiTCQ?n0
+R3
+R1
+R5
+R12
+R13
+l0
+L50
+VznSd1`<4c_;h5^9ScPfLA2
+R8
+32
+R9
+R10
+R11
+!s100 2Y?JInhFjo4=Ok4dSHnaB3
+Ccfg_ha_behavioral
+abehavioral
+eha
+DAx4 work 2 ha 10 behavioral 22 [^X;6DTB30AN5laWb^mzH1
+R3
+R2
+R5
+Z14 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/ha.vhd
+Z15 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/ha.vhd
+l0
+L21
+V1MM51bHDCb8_l=XNXllcc1
+R8
+32
+R9
+R10
+R11
+!s100 am7LmE75YNUjFLfj^@Sz13
+Ccfg_testcount
+atest
+etestcount
+R4
+DCx4 work 20 cfg_count_structural 0 22 8EYRDb]CYKHE8FIM?>@1D0
+DAx4 work 9 testcount 4 test 22 ^Id;1F9Wb[GHHRzZ<M0E_3
+Z16 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R3
+Z17 DEx4 work 9 testcount 0 22 86a5CWTem9z1c@RR0F5=^0
+R5
+Z18 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/tb_counter.vhd
+Z19 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/tb_counter.vhd
+l0
+L40
+V;`TUa`[^Ee5iEhkj_@A]01
+R8
+32
+Z20 Mx2 4 ieee 14 std_logic_1164
+Z21 Mx1 4 ieee 11 numeric_std
+R10
+R11
+!s100 >P2Xin8`i;W6A:mz;O6R21
+Ecount
+R5
+R3
+R6
+R7
+l0
+L4
+VfAmc2hIc6YTle[ZS4V9SW3
+R8
+32
+R10
+R11
+!s100 RMjO]F^ETRNHXB_NBb`ne1
+Astructural
+R3
+R4
+32
+R9
+l34
+L13
+VK14WocoE9i3Kj;e>zLlI>0
+R8
+R10
+R11
+!s100 J<JG[QjIa]Tno9[HYnSe;1
+Efd
+R5
+R3
+R12
+R13
+l0
+L4
+VbG2dXfE`Fo>HFh3jAS47G3
+R8
+32
+R10
+R11
+!s100 KD6C4jB[heafQZEbP?[5@3
+Apluto
+R3
+R1
+32
+R9
+l30
+L28
+Vi>SlU_I2igD9NGRiTCQ?n0
+R8
+R10
+R11
+!s100 Gk<mLd8O;[d>a?;agHK`:2
+Apippo
+R3
+R1
+l14
+L12
+VMT08ke;c3R8U4VfUIK^l?0
+R8
+32
+R9
+R10
+R11
+!s100 `8JifU86zYe>Ic>Gjij^=2
+Eha
+R5
+R3
+R14
+R15
+l0
+L4
+VbU?CZVOOkUfLJ:iohh2UA2
+R8
+32
+R10
+R11
+!s100 Ae0nFTRK?zI:C:o^ld?D^2
+Abehavioral
+R3
+R2
+32
+R9
+l14
+L12
+V[^X;6DTB30AN5laWb^mzH1
+R8
+R10
+R11
+!s100 @=AdTlZ?[<C0jYcBkaCLf3
+Etestcount
+R5
+R16
+R3
+R18
+R19
+l0
+L5
+V86a5CWTem9z1c@RR0F5=^0
+R8
+32
+R10
+R11
+!s100 lFBLOh<H;S0^^T7^:JL9z0
+Atest
+R16
+R3
+R17
+32
+R20
+R21
+l28
+L8
+V^Id;1F9Wb[GHHRzZ<M0E_3
+R8
+R10
+R11
+!s100 :AZaE6d2moW?n00[fEVe=0

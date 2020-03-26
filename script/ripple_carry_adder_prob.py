@@ -1,6 +1,6 @@
 pa=float(input('Inserire pa'))
 pb=float(input('Inserire pb'))
-p_cin=0;
+p_cin=0
 
 #for a single FA
 ps= (pa)*(1-pb)*(1-p_cin)+(1-pa)*(pb)*(1-p_cin)+(1-pa)*(1-pb)*p_cin+pa*pb*p_cin

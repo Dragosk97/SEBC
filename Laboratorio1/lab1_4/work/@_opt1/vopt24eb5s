@@ -1,0 +1,64 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4
+T_opt
+Z1 VJP_P5WC=S;YSDh;TF5F`a3
+Z2 04 10 4 work tbmux21bis test 1
+Z3 =1-52540093200d-5e7b8a28-a56fa-4024
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 VP=zRYN@8bOQU`DcE:Lgd91
+R2
+Z8 =1-52540093200d-5e7d25cb-29d91-189a
+R4
+Z9 n@_opt1
+R6
+Cmux21bistest
+atest
+Z10 etbmux21bis
+Z11 DAx4 work 10 tbmux21bis 4 test 22 G:O6Ud86Z@3aHY1694:Le2
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 DEx4 work 10 tbmux21bis 0 22 NALVoXPEz?Sn?dAM5UkDc1
+Z14 w1584556515
+Z15 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_4
+Z16 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_4/tb_mux21_glitch.vhd
+Z17 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_4/tb_mux21_glitch.vhd
+l0
+L49
+Z18 V_D_hnTZaGVEkORS;<oYfb1
+Z19 OL;C;6.5c;42
+32
+Z20 Mx1 4 ieee 14 std_logic_1164
+Z21 o-work work -2002 -explicit
+Z22 tExplicit 1
+Z23 !s100 oihb@z59YlXII6FX<@InM0
+Etbmux21bis
+Z24 w1585259965
+Z25 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R15
+R16
+R17
+l0
+L5
+Z26 VNALVoXPEz?Sn?dAM5UkDc1
+R19
+R21
+R22
+Z27 !s100 KA[oF98b05hQYdD4<gDkc2
+Atest
+R25
+DEx64 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_4/work 10 tbmux21bis 0 22 NALVoXPEz?Sn?dAM5UkDc1
+32
+Mx1 17 __model_tech/ieee 14 std_logic_1164
+l21
+L8
+Z28 VG:O6Ud86Z@3aHY1694:Le2
+R19
+R21
+R22
+Z29 !s100 ?;Sob^UPGlQIDjiBF?E]o3

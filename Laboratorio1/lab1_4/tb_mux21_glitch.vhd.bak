@@ -21,7 +21,7 @@ architecture TEST of TBMUX21BIS is
 begin 
 
 	A <= '1';
-	B <= '0';
+	B <= '1';
 	S <= '1', '0' after 1 ns; -- output dovrebbe rimanere a 1 invece ...
 	
 	PSN: process(S)

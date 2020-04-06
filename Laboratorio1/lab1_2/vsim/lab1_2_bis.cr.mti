@@ -1,0 +1,31 @@
+/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity rca
+-- Compiling architecture structural of rca
+-- Compiling configuration cfg_rca_structural
+-- Loading entity rca
+-- Loading architecture structural of rca
+-- Loading entity fa
+-- Loading configuration cfg_fa_behavioral
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity lfsr16
+-- Compiling architecture rtl of lfsr16
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fa
+-- Compiling architecture behavioral of fa
+-- Compiling configuration cfg_fa_behavioral
+-- Loading entity fa
+-- Loading architecture behavioral of fa
+
+} {} {}}

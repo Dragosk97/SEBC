@@ -1,0 +1,35 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Project file /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4/lab1_1_4.mpf was not found.
+# Unable to open project.
+# Loading project lab1_5
+# Compile of counter.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of tb_counter.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -t 10ps -novopt work.testcount
+# vsim -t 10ps -novopt work.testcount 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.testcount(test)
+# Loading work.testcount(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.count(structural)
+# Loading work.count(structural)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.ha(behavioral)
+# Loading work.ha(behavioral)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.fd(pluto)
+# Loading work.fd(pluto)
+do wave_1_5.do
+run 520 ns
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/wave.do
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/wave.do

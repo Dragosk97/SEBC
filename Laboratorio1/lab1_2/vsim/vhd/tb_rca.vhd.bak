@@ -36,7 +36,7 @@ architecture TEST of TBRCA is
 Begin
 
 -- Instanciate the ADDER without delay
-  UADDER1: RCA generic map (DRCAS => 0.025 ns, DRCAC => 0 ns) port map (A, B, Ci, S1, Co1);
+  UADDER1: RCA generic map (DRCAS => 0.01 ns, DRCAC => 0.01 ns) port map (A, B, Ci, S1, Co1);
   
 -- Instanciate the ADDER without delay
   UADDER2: RCA generic map (DRCAS => 0.025 ns, DRCAC => 0.025 ns) port map (A, B, Ci, S2, Co2);

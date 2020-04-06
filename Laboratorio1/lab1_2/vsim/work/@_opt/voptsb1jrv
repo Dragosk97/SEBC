@@ -1,0 +1,210 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim
+T_opt
+Z1 V6YgdQjGQ9Uk@BP6fNZ_5B1
+Z2 04 5 4 work tbrca test 1
+Z3 =1-52540093200d-5e8b55a7-6e7f-709b
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+Ccfg_fa_behavioral
+Z7 abehavioral
+efa
+Z8 DAx4 work 2 fa 10 behavioral 22 A<M=E]oV5ZU4VVe=LoFgg2
+Z9 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z10 DEx4 work 2 fa 0 22 m^lkUbP@ofmDk?336S>f83
+Z11 w1584556515
+Z12 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim
+Z13 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+Z14 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+l0
+L24
+Z15 VFm2m[zl]1RiGnULZl[zR33
+Z16 OL;C;6.5c;42
+32
+Z17 Mx1 4 ieee 14 std_logic_1164
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Z20 !s100 N8jaSFH>R4g@BRL@OEIF?2
+Ccfg_ha_behavioral
+R7
+eha
+Z21 DAx4 work 2 ha 10 behavioral 22 [^X;6DTB30AN5laWb^mzH1
+R9
+Z22 DEx4 work 2 ha 0 22 bU?CZVOOkUfLJ:iohh2UA2
+R11
+Z23 8/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/ha.vhd
+Z24 F/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/ha.vhd
+l0
+L21
+Z25 V1MM51bHDCb8_l=XNXllcc1
+R16
+32
+R17
+R18
+R19
+Z26 !s100 am7LmE75YNUjFLfj^@Sz13
+Ccfg_rca_structural
+Z27 astructural
+erca
+R10
+Z28 DCx4 work 17 cfg_fa_behavioral 0 22 Fm2m[zl]1RiGnULZl[zR33
+Z29 DAx4 work 3 rca 10 structural 22 NlU63IA0NOn_RlMjIl_8i3
+R9
+Z30 DEx4 work 3 rca 0 22 g:`UzDmKD39CMf`]7CadV3
+R11
+R12
+Z31 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+Z32 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+l0
+L43
+Z33 V^[O]>@NPP>RYzQT:?agI<0
+R16
+32
+R17
+R18
+R19
+Z34 !s100 CO_=31C;:?OVnX8bTC5LE0
+Efa
+R11
+R9
+R12
+R13
+R14
+l0
+L4
+Z35 Vm^lkUbP@ofmDk?336S>f83
+R16
+32
+R18
+R19
+Z36 !s100 f3OXb<b=8oJ?=6agDk5k?0
+Abehavioral
+R9
+R10
+32
+R17
+l16
+L14
+Z37 VA<M=E]oV5ZU4VVe=LoFgg2
+R16
+R18
+R19
+Z38 !s100 hVPSNOF<;T`_^kGBHDgCF1
+Eha
+R11
+R9
+R23
+R24
+l0
+L4
+Z39 VbU?CZVOOkUfLJ:iohh2UA2
+R16
+32
+R18
+R19
+Z40 !s100 Ae0nFTRK?zI:C:o^ld?D^2
+Abehavioral
+R9
+R22
+l14
+L12
+Z41 V[^X;6DTB30AN5laWb^mzH1
+R16
+32
+R17
+R18
+R19
+Z42 !s100 @=AdTlZ?[<C0jYcBkaCLf3
+Elfsr16
+R11
+Z43 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+R9
+R12
+Z44 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+Z45 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+l0
+L9
+Z46 VF9Xi^5[:SYJm7ceW50S^W0
+R16
+32
+R18
+R19
+Z47 !s100 b;8@OZ1eTg^V8UP<l1oG82
+Artl
+R43
+R9
+Z48 DEx4 work 6 lfsr16 0 22 F9Xi^5[:SYJm7ceW50S^W0
+32
+Z49 Mx2 4 ieee 14 std_logic_1164
+Z50 Mx1 4 ieee 15 std_logic_arith
+l22
+L20
+Z51 V<GfMz[`XSkJDTI=>:1@VW3
+R16
+R18
+R19
+Z52 !s100 E;`GmPL31IaSmPSZjZYm@3
+Erca
+R11
+R9
+R12
+R31
+R32
+l0
+L4
+Z53 Vg:`UzDmKD39CMf`]7CadV3
+R16
+32
+R18
+R19
+Z54 !s100 X<MAgSJOC4_e_D=EhdHj61
+Astructural
+R9
+R30
+32
+R17
+l29
+L14
+Z55 VNlU63IA0NOn_RlMjIl_8i3
+R16
+R18
+R19
+Z56 !s100 l`f`_b<8RBl4NjI>iP:n`0
+Etbrca
+Z57 w1585651877
+Z58 DPx17 __model_tech/ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z59 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R12
+Z60 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd
+Z61 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd
+l0
+L5
+Z62 VeDg<[FD?lHNUSHFfRYlad0
+R16
+R18
+R19
+Z63 !s100 ><[R?8EI:3[_?OLbINKnZ3
+Atest
+DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 2 fa 0 22 m^lkUbP@ofmDk?336S>f83
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 6 lfsr16 0 22 F9Xi^5[:SYJm7ceW50S^W0
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 3 rca 0 22 g:`UzDmKD39CMf`]7CadV3
+R58
+R59
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 5 tbrca 0 22 eDg<[FD?lHNUSHFfRYlad0
+32
+Mx3 17 __model_tech/ieee 14 std_logic_1164
+Mx2 17 __model_tech/ieee 11 numeric_std
+Mx1 17 __model_tech/ieee 15 std_logic_arith
+l36
+L8
+Z64 Vfe;a0k[UWHLZkjbzMNO]G0
+R16
+R18
+R19
+Z65 !s100 [YEi3Bf[DMEc^G2V3FRB[0

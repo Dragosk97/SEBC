@@ -1,4 +1,4 @@
-/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
 Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 -- Loading package standard
 -- Loading package std_logic_1164
@@ -10,15 +10,7 @@ Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 -- Loading entity fa
 -- Loading configuration cfg_fa_behavioral
 
-} {} {}} /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd
-Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
--- Loading package standard
--- Loading package std_logic_1164
--- Loading package numeric_std
--- Compiling entity tbrca
--- Compiling architecture test of tbrca
-
-} {} {}} /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
 Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 -- Loading package standard
 -- Loading package std_logic_1164
@@ -26,7 +18,7 @@ Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 -- Compiling entity lfsr16
 -- Compiling architecture rtl of lfsr16
 
-} {} {}} /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
 Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 -- Loading package standard
 -- Loading package std_logic_1164

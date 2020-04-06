@@ -3,6 +3,13 @@ K3
 13
 cModel Technology
 Z0 d/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim
+T_opt
+V6YgdQjGQ9Uk@BP6fNZ_5B1
+04 5 4 work tbrca test 1
+=1-52540093200d-5e8b55a7-6e7f-709b
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;6.5c;42
 Ccfg_fa_behavioral
 Z1 abehavioral
 efa
@@ -168,7 +175,7 @@ R10
 R11
 !s100 l`f`_b<8RBl4NjI>iP:n`0
 Etbrca
-Z23 w1585651877
+Z23 w1586190315
 Z24 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
 R2
 R5
@@ -191,8 +198,8 @@ R21
 Mx1 4 ieee 11 numeric_std
 l36
 L8
-Vfe;a0k[UWHLZkjbzMNO]G0
+Vf;mnLnoIRO>kN?6Q0bUX^3
 R8
 R10
 R11
-!s100 [YEi3Bf[DMEc^G2V3FRB[0
+!s100 o;?RYf8L]3oImXo6o0IF13

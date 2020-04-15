@@ -1,0 +1,35 @@
+/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/vhd/tb_fsm1.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/vhd/tb_fsm1.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity tbfsm
+-- Compiling architecture test of tbfsm
+-- Loading entity adder
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/dpadder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/dpadder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_signed
+-- Compiling entity datapath_adder
+-- Compiling architecture behavioral of datapath_adder
+-- Compiling configuration cfg_dp_adder
+-- Loading entity datapath_adder
+-- Loading architecture behavioral of datapath_adder
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture str of adder
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/fsm_adder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/fsm_adder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fsm_adder
+-- Compiling architecture arc_enumtype of fsm_adder
+
+} {} {}}

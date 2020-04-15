@@ -1,0 +1,352 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim
+T_opt
+Z1 V6YgdQjGQ9Uk@BP6fNZ_5B1
+Z2 04 5 4 work tbrca test 1
+Z3 =1-52540093200d-5e8b55a7-6e7f-709b
+Z4 o-quiet -auto_acc_if_foreign -work work
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+T_opt1
+Z7 V5<i7j:W@?MYWRTz<m5>Ih3
+Z8 04 5 4 work tbfsm test 1
+Z9 =1-52540093200d-5e91e287-54100-58e7
+R4
+Z10 n@_opt1
+R6
+Eadder
+Z11 w1586534576
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim
+Z14 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd
+Z15 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd
+l0
+L28
+Z16 V:@feEN:RH_8bmU90F5NmJ3
+Z17 OL;C;6.5c;42
+32
+Z18 o-work work -2002 -explicit
+Z19 tExplicit 1
+Z20 !s100 ?9>TLgdoc>N<JUBKX3czg2
+Astr
+R12
+Z21 DEx4 work 5 adder 0 22 :@feEN:RH_8bmU90F5NmJ3
+32
+Z22 Mx1 4 ieee 14 std_logic_1164
+l78
+L40
+Z23 VS<J6ji3ifJ6J5lkETacNI0
+R17
+R18
+R19
+Z24 !s100 OZaYLU9:Fl^=1flVE[l3Y2
+Ccfg_dp_adder
+Z25 abehavioral
+Z26 edatapath_adder
+Z27 DAx4 work 14 datapath_adder 10 behavioral 22 [D:P2EYL=ccb^j>e5l4eD0
+Z28 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z29 DPx4 ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+R12
+Z30 DEx4 work 14 datapath_adder 0 22 a`knAS]00c?E@nd]_CHGo2
+Z31 w1585924798
+R13
+Z32 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/dpadder.vhd
+Z33 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/dpadder.vhd
+l0
+L85
+Z34 Vd:>Vc3?1cZ=JzLFM>9E?W3
+R17
+32
+Z35 Mx3 4 ieee 14 std_logic_1164
+Z36 Mx2 4 ieee 16 std_logic_signed
+Z37 Mx1 4 ieee 15 std_logic_arith
+R18
+R19
+Z38 !s100 f:0:6M>llWEf7z@m9dmWe2
+Ccfg_fa_behavioral
+R25
+efa
+Z39 DAx4 work 2 fa 10 behavioral 22 A<M=E]oV5ZU4VVe=LoFgg2
+R12
+Z40 DEx4 work 2 fa 0 22 m^lkUbP@ofmDk?336S>f83
+Z41 w1584556515
+R13
+Z42 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+Z43 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/fa.vhd
+l0
+L24
+Z44 VFm2m[zl]1RiGnULZl[zR33
+R17
+32
+R22
+R18
+R19
+Z45 !s100 N8jaSFH>R4g@BRL@OEIF?2
+Ccfg_ha_behavioral
+R25
+eha
+Z46 DAx4 work 2 ha 10 behavioral 22 [^X;6DTB30AN5laWb^mzH1
+R12
+Z47 DEx4 work 2 ha 0 22 bU?CZVOOkUfLJ:iohh2UA2
+R41
+Z48 8/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/ha.vhd
+Z49 F/home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/ha.vhd
+l0
+L21
+Z50 V1MM51bHDCb8_l=XNXllcc1
+R17
+32
+R22
+R18
+R19
+Z51 !s100 am7LmE75YNUjFLfj^@Sz13
+Ccfg_rca_structural
+Z52 astructural
+erca
+R40
+Z53 DCx4 work 17 cfg_fa_behavioral 0 22 Fm2m[zl]1RiGnULZl[zR33
+Z54 DAx4 work 3 rca 10 structural 22 NlU63IA0NOn_RlMjIl_8i3
+R12
+Z55 DEx4 work 3 rca 0 22 g:`UzDmKD39CMf`]7CadV3
+R41
+R13
+Z56 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+Z57 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/rca.vhd
+l0
+L43
+Z58 V^[O]>@NPP>RYzQT:?agI<0
+R17
+32
+R22
+R18
+R19
+Z59 !s100 CO_=31C;:?OVnX8bTC5LE0
+Edatapath_adder
+R31
+R28
+R29
+R12
+R13
+R32
+R33
+l0
+L7
+Z60 Va`knAS]00c?E@nd]_CHGo2
+R17
+32
+R18
+R19
+Z61 !s100 ;7CC>HWATTza8a8B_Sm`92
+Abehavioral
+R28
+R29
+R12
+R30
+32
+R35
+R36
+R37
+l33
+L28
+Z62 V[D:P2EYL=ccb^j>e5l4eD0
+R17
+R18
+R19
+Z63 !s100 ZLzXLYdIgUm_SB_^;kobL3
+Efa
+R41
+R12
+R13
+R42
+R43
+l0
+L4
+Z64 Vm^lkUbP@ofmDk?336S>f83
+R17
+32
+R18
+R19
+Z65 !s100 f3OXb<b=8oJ?=6agDk5k?0
+Abehavioral
+R12
+R40
+32
+R22
+l16
+L14
+Z66 VA<M=E]oV5ZU4VVe=LoFgg2
+R17
+R18
+R19
+Z67 !s100 hVPSNOF<;T`_^kGBHDgCF1
+Efsm_adder
+Z68 w1586530510
+R12
+R13
+Z69 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/fsm_adder.vhd
+Z70 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/fsm_adder.vhd
+l0
+L6
+Z71 V0RILGZ@:P?mXHoP^XkRZd3
+R17
+32
+R18
+R19
+Z72 !s100 9LUWD[D=kXc@ohilnEK692
+Aarc_enumtype
+R12
+Z73 DEx4 work 9 fsm_adder 0 22 0RILGZ@:P?mXHoP^XkRZd3
+32
+R22
+l25
+L14
+Z74 V<Lelgf0KkGQ0ngSI[iYET3
+R17
+R18
+R19
+Z75 !s100 BE8D=eifZJ=7o0fkbjL_b0
+Eha
+R41
+R12
+R48
+R49
+l0
+L4
+Z76 VbU?CZVOOkUfLJ:iohh2UA2
+R17
+32
+R18
+R19
+Z77 !s100 Ae0nFTRK?zI:C:o^ld?D^2
+Abehavioral
+R12
+R47
+l14
+L12
+Z78 V[^X;6DTB30AN5laWb^mzH1
+R17
+32
+R22
+R18
+R19
+Z79 !s100 @=AdTlZ?[<C0jYcBkaCLf3
+Elfsr16
+R41
+R28
+R12
+R13
+Z80 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+Z81 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/lfsr.vhd
+l0
+L9
+Z82 VF9Xi^5[:SYJm7ceW50S^W0
+R17
+32
+R18
+R19
+Z83 !s100 b;8@OZ1eTg^V8UP<l1oG82
+Artl
+R28
+R12
+Z84 DEx4 work 6 lfsr16 0 22 F9Xi^5[:SYJm7ceW50S^W0
+32
+Z85 Mx2 4 ieee 14 std_logic_1164
+R37
+l22
+L20
+Z86 V<GfMz[`XSkJDTI=>:1@VW3
+R17
+R18
+R19
+Z87 !s100 E;`GmPL31IaSmPSZjZYm@3
+Erca
+R41
+R12
+R13
+R56
+R57
+l0
+L4
+Z88 Vg:`UzDmKD39CMf`]7CadV3
+R17
+32
+R18
+R19
+Z89 !s100 X<MAgSJOC4_e_D=EhdHj61
+Astructural
+R12
+R55
+32
+R22
+l29
+L14
+Z90 VNlU63IA0NOn_RlMjIl_8i3
+R17
+R18
+R19
+Z91 !s100 l`f`_b<8RBl4NjI>iP:n`0
+Etbfsm
+Z92 w1586534354
+Z93 DPx17 __model_tech/ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+32
+R13
+Z94 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/vhd/tb_fsm1.vhd
+Z95 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/vhd/tb_fsm1.vhd
+l0
+L7
+Z96 VS^A2S[P@S0K968_aZWj2J2
+R17
+R18
+R19
+Z97 !s100 i]]aAgO0@0MoIMe:e1hKN2
+Atest
+DPx17 __model_tech/ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+DPx17 __model_tech/ieee 16 std_logic_signed 0 22 <9<Kcl:S52:oW`F]FQhb20
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 9 fsm_adder 0 22 0RILGZ@:P?mXHoP^XkRZd3
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 14 datapath_adder 0 22 a`knAS]00c?E@nd]_CHGo2
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 5 adder 0 22 :@feEN:RH_8bmU90F5NmJ3
+R93
+DEx69 /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work 5 tbfsm 0 22 S^A2S[P@S0K968_aZWj2J2
+32
+Mx3 17 __model_tech/ieee 14 std_logic_1164
+Mx2 17 __model_tech/ieee 16 std_logic_signed
+Mx1 17 __model_tech/ieee 15 std_logic_arith
+l23
+L10
+Z98 VSC>dI[26KlJB9BN?KX[>12
+R17
+R18
+R19
+Z99 !s100 S<a1TBkedPK0F;RGzji`Q2
+Etbrca
+Z100 w1586190315
+Z101 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R12
+R13
+Z102 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd
+Z103 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/vhd/tb_rca.vhd
+l0
+L5
+Z104 VeDg<[FD?lHNUSHFfRYlad0
+R17
+32
+R18
+R19
+Z105 !s100 ><[R?8EI:3[_?OLbINKnZ3
+Atest
+R101
+R12
+Z106 DEx4 work 5 tbrca 0 22 eDg<[FD?lHNUSHFfRYlad0
+32
+R85
+Z107 Mx1 4 ieee 11 numeric_std
+l36
+L8
+Z108 Vf;mnLnoIRO>kN?6Q0bUX^3
+R17
+R18
+R19
+Z109 !s100 o;?RYf8L]3oImXo6o0IF13

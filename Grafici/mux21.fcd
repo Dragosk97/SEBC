@@ -1,0 +1,32 @@
+[FIDOCAD]
+MC 55 15 0 0 ey_libraries.logand0
+MC 55 60 0 0 ey_libraries.logand0
+MC 85 40 0 0 ey_libraries.logor0
+MC 35 40 3 0 ey_libraries.lognot0
+LI 75 60 75 45 0
+LI 75 35 75 15 0
+LI 75 15 65 15 0
+LI 80 45 75 45 0
+LI 80 35 75 35 0
+LI 75 60 65 60 0
+LI 45 55 35 55 0
+LI 35 50 35 55 0
+LI 35 25 35 20 0
+LI 35 20 50 20 0
+LI 45 10 20 10 0
+LI 50 65 20 65 0
+LI 35 55 20 55 0
+SA 70 15 0
+SA 70 60 0
+SA 100 40 0
+SA 20 55 0
+SA 20 65 0
+SA 20 10 0
+SA 35 20 0
+TY 35 20 4 3 0 0 0 * N
+TY 20 10 4 3 0 0 0 * A
+TY 20 55 4 3 0 0 0 * S
+TY 20 65 4 3 0 0 0 * B
+TY 70 60 4 3 0 0 0 * Z
+TY 100 40 4 3 0 0 0 * Y
+TY 70 15 4 3 0 0 0 * X

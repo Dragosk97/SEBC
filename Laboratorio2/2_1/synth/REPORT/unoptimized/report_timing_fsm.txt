@@ -1,0 +1,39 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : fsm_adder
+Version: F-2011.09-SP3
+Date   : Sat Apr 11 18:06:35 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CURRENT_STATE_reg[2]
+              (rising edge-triggered flip-flop)
+  Endpoint: sel2[1] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fsm_adder          5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  CURRENT_STATE_reg[2]/CK (DFF_X1)         0.00       0.00 r
+  CURRENT_STATE_reg[2]/QN (DFF_X1)         0.08       0.08 f
+  U8/ZN (NAND2_X1)                         0.05       0.13 r
+  U3/ZN (INV_X1)                           0.03       0.15 f
+  U7/ZN (AOI21_X1)                         0.04       0.19 r
+  U6/ZN (INV_X1)                           0.02       0.21 f
+  sel2[1] (out)                            0.00       0.21 f
+  data arrival time                                   0.21
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

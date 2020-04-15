@@ -1,0 +1,2 @@
+create_clock -name "CLK" -period 2 {clock}
+report_clock

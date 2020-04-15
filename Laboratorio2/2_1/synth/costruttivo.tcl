@@ -1,0 +1,3 @@
+set_max_dynamic_power 58000000
+compile -exact_map
+report_power

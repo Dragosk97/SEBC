@@ -1,0 +1,59 @@
+ 
+****************************************
+Report : power
+        -net
+        -analysis_effort low
+        -sort_mode net_switching_power
+Design : fsm_adder
+Version: F-2011.09-SP3
+Date   : Wed Apr 15 16:21:39 2020
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fsm_adder              5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+
+  Attributes
+  ----------
+      a  -  Switching activity information annotated on net
+      d  -  Default switching activity information on net
+
+                             Total      Static   Toggle   Switching
+Net                          Net Load   Prob.    Rate     Power      Attrs
+--------------------------------------------------------------------------------
+n10                            8.293    0.611    0.0201      0.1006  
+n3                             7.726    0.587    0.0203      0.0949  
+n12                            6.021    0.193    0.0198      0.0721  
+n5                             4.032    0.794    0.0208      0.0507  
+n13                            4.023    0.411    0.0208      0.0507  
+sel1[1]                        2.399    0.414    0.0203      0.0294  
+n14                            1.980    0.586    0.0203      0.0243  
+n11                            1.909    0.576    0.0198      0.0229  
+N1                             1.450    0.394    0.0205      0.0180  
+n8                             1.450    0.196    0.0202      0.0177  
+sel1[0]                        0.310    0.589    0.0208      0.0039  
+sel2[1]                        0.310    0.607    0.0204      0.0038  
+sel2[0]                        0.310    0.389    0.0201      0.0038  
+--------------------------------------------------------------------------------
+Total (13 nets)                                            492.8116 nW
+1

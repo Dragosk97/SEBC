@@ -1,0 +1,74 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lab2
+# Compile of adder.vhd was successful.
+# Compile of dpadder.vhd was successful.
+# Compile of fsm_adder.vhd was successful.
+# 3 compiles, 0 failed with no errors. 
+# Compile of tb_fsm1.vhd failed with 1 errors.
+# Compile of tb_fsm1.vhd was successful.
+vsim work.tbfsm(test)
+# vsim work.tbfsm(test) 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd(100): (vopt-1134) Incompatible modes for port "sel1" in component "fsm_adder" when binding to entity "fsm_adder".
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.vhd(100): (vopt-1134) Incompatible modes for port "sel2" in component "fsm_adder" when binding to entity "fsm_adder".
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/fsm_adder.vhd(14): Vopt Compiler exiting
+# Error loading design
+# Compile of adder.vhd was successful.
+# Compile of adder.vhd was successful.
+# Compile of dpadder.vhd was successful.
+# Compile of fsm_adder.vhd was successful.
+# Compile of tb_fsm1.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+vsim -novopt work.tbfsm(test)
+# vsim -novopt work.tbfsm(test) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbfsm(test)
+# Loading work.tbfsm(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.adder(str)
+# Loading work.adder(str)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.datapath_adder(behavioral)
+# Loading work.datapath_adder(behavioral)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.fsm_adder(arc_enumtype)
+# Loading work.fsm_adder(arc_enumtype)
+add wave *
+
+
+
+
+
+
+run 100 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+add wave \
+{sim:/tbfsm/adder_1/fsm_add/current_state } 
+add wave \
+{sim:/tbfsm/adder_1/fsm_add/next_state } 
+restart
+run 100 ns
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 2 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 6 ns  Iteration: 1  Instance: /tbfsm/adder_1/adder

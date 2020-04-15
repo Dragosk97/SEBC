@@ -1,0 +1,108 @@
+-------------------------------------------------------------------------------
+-- Title      : lab2.1
+-- Project    : 
+-------------------------------------------------------------------------------
+-- File       : adder.vhd
+-- Author     :   <lp20.17@localhost.localdomain>
+-- Company    : 
+-- Created    : 2020-04-07
+-- Last update: 2020-04-07
+-- Platform   : 
+-- Standard   : VHDL'93/02
+-------------------------------------------------------------------------------
+-- Description: adder
+
+-------------------------------------------------------------------------------
+-- Copyright (c) 2020 
+-------------------------------------------------------------------------------
+-- Revisions  :
+-- Date        Version  Author  Description
+-- 2020-04-07  1.0      lp20.17 Created
+-------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+
+-------------------------------------------------------------------------------
+
+entity adder is
+
+  port (A, B, C, D, E, F : in  std_logic_vector(15 downto 0);
+        clock            : in  std_logic;
+        Y                : out std_logic_vector(15 downto 0)
+
+        );
+
+end entity adder;
+
+-------------------------------------------------------------------------------
+
+architecture str of adder is
+
+  -----------------------------------------------------------------------------
+  -- Internal signal declarations
+  -----------------------------------------------------------------------------
+
+  signal sel1, sel2 : std_logic_vector(1 downto 0);
+  signal sum_adder  : std_logic_vector(15 downto 0);
+  
+begin  -- architecture str
+
+  -----------------------------------------------------------------------------
+  -- Component instantiations
+  -----------------------------------------------------------------------------
+  component datapath_adder
+    port(MUX00 : in  std_logic_vector(15 downto 0);
+         MUX01 : in  std_logic_vector(15 downto 0);
+         MUX02 : in  std_logic_vector(15 downto 0);
+         MUX03 : in  std_logic_vector(15 downto 0);
+         MUX10 : in  std_logic_vector(15 downto 0);
+         MUX11 : in  std_logic_vector(15 downto 0);
+         MUX12 : in  std_logic_vector(15 downto 0);
+         MUX13 : in  std_logic_vector(15 downto 0);
+         clock : in  std_logic;
+         reset : in  std_logic;
+         SEL00 : in  std_logic;
+         SEL01 : in  std_logic;
+         SEL10 : in  std_logic;
+         SEL11 : in  std_logic;
+         SUM   : out std_logic_vector(15 downto 0)
+         );
+  end component;
+
+
+  component fsm_adder
+    port(clock        : in std_logic;
+           sel1, sel2 :    std_logic_vector(1 downto 0)
+           );
+  end component;
+
+
+  
+  ADDER : datapath_adder port map (MUX00 => A,
+                                   MUX01 => sum_adder,
+                                   MUX02 => F,
+                                   MUX03 => E,
+                                   MUX10 => B,
+                                   MUX11 => C,
+                                   MUX12 => sum_adder,
+                                   MUX13 => D,
+                                   clock => clock,
+                                   reset => '0',
+                                   SEL00 => sel1(0),
+                                   SEL01 => sel1(1),
+                                   SEL10 => sel2(0),
+                                   SEL11 => sel2(1),
+                                   SUM   => sum_adder
+                                   );
+
+  FSM_ADD : fsm_adder port map (clock => clock,
+                                 sel1 => sel1,
+                                 sel2 => sel2
+                                 );
+
+  Y <= sum_adder;
+
+end architecture str;
+
+-------------------------------------------------------------------------------

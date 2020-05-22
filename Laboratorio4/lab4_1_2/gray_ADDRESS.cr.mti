@@ -1,0 +1,17 @@
+/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/tb_encdec_gray_ADDRESS.v {1 {vlog -work work -vopt -nocovercells /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/tb_encdec_gray_ADDRESS.v
+Model Technology ModelSim SE-64 vlog 6.5c Compiler 2009.08 Aug 27 2009
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/grayencoder.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/grayencoder.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package std_logic_unsigned
+-- Compiling entity grayencoder
+-- Compiling architecture behavioral of grayencoder
+
+} {} {}}

@@ -1,0 +1,17 @@
+create_clock -name ck -period 5 {ck}
+
+report_power -include_input_nets > cg_step1.txt
+report_power -net -include_input_nets > cg_step1_net.txt 
+
+set_switching_activity -static_probability 0.5 -toggle_rate 2 -base_clock ck {ck}
+set_switching_activity -static_probability 0 -base_clock ck {rst}
+
+report_power -include_input_nets > cg_step2.txt
+report_power -net -include_input_nets > cg_step2_net.txt
+
+set_switching_activity -static_probability 0.12 -toggle_rate 0.025 -base_clock ck {INCA INCB}
+
+report_power -include_input_nets > cg_step3.txt
+report_power -net -include_input_nets > cg_step3_net.txt
+
+report_cell > cg_cell.txt

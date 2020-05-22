@@ -7,17 +7,26 @@ Port(	C: out std_logic_vector(7 downto 0);
 	ck: in std_logic;
 	rst: in std_logic;
 	INCA: in std_logic;
+<<<<<<< Updated upstream
 	INCB: in std_logic;
 	INCC: in std_logic);
+=======
+	INCB: in std_logic);
+>>>>>>> Stashed changes
 end inccomp;
 
 architecture behavioral of inccomp is
 
+<<<<<<< Updated upstream
 signal syncha, synchb, synchc : std_logic_vector(7 downto 0);
+=======
+signal syncha, synchb : std_logic_vector(7 downto 0);
+>>>>>>> Stashed changes
 
 begin
 
 	p1: process(ck,rst)
+<<<<<<< Updated upstream
 	variable tmpa, tmpb, tmpc : std_logic_vector(7 downto 0);
 	begin
 	  if rst='1' then
@@ -48,6 +57,30 @@ begin
 			elsif ((tmpc)>(tmpa) AND (tmpc)>(tmpb)) then
 				C <= tmpc;
 			end if;
+=======
+	variable tmpa, tmpb : std_logic_vector(7 downto 0);
+	begin
+	  if rst='1' then
+	  	syncha <= (others => '0');
+		synchb <= (others => '0');
+		C <= (others => '0');
+	  elsif ck'event and ck='1' then
+	  	tmpa:= syncha;
+		tmpb:= synchb;
+	  	if INCA='1' then
+			syncha <= syncha+1;
+			tmpa:= tmpa+1;
+		end if;
+		if INCB='1' then
+			synchb <= synchb+1;
+			tmpb:= tmpb+1;
+		end if;
+		if ((tmpa)>(tmpb)) then
+			C <= tmpa;
+		else
+			C <= tmpb;
+		end if;
+>>>>>>> Stashed changes
 	  end if;
 	end process;
 end behavioral;

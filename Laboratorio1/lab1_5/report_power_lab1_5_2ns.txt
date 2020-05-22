@@ -1,0 +1,45 @@
+
+Power Report Interval
+518000
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                  /testcount/ucounter1/a      1      0       512000         6000            0
+                 /testcount/ucounter1/ck    518      0       259000       259000            0
+              /testcount/ucounter1/reset      1      0         2000       516000            0
+               /testcount/ucounter1/s(7)      2      0       256000       262000            0
+               /testcount/ucounter1/s(6)      4      0       256000       262000            0
+               /testcount/ucounter1/s(5)      8      0       256000       262000            0
+               /testcount/ucounter1/s(4)     16      0       256000       262000            0
+               /testcount/ucounter1/s(3)     32      0       256000       262000            0
+               /testcount/ucounter1/s(2)     64      0       256000       262000            0
+               /testcount/ucounter1/s(1)    128      0       256000       262000            0
+               /testcount/ucounter1/s(0)    256      0       256000       262000            0
+                 /testcount/ucounter1/co     16      0         2000       515800          200
+            /testcount/ucounter1/stmp(7)     30      0       256000       261600          400
+            /testcount/ucounter1/stmp(6)     52      0       256000       261600          400
+            /testcount/ucounter1/stmp(5)     88      0       256000       261600          400
+            /testcount/ucounter1/stmp(4)    144      0       256000       261600          400
+            /testcount/ucounter1/stmp(3)    224      0       256000       261600          400
+            /testcount/ucounter1/stmp(2)    320      0       256000       261600          400
+            /testcount/ucounter1/stmp(1)    384      0       256000       261600          400
+            /testcount/ucounter1/stmp(0)    257      0       255800       262000          200
+            /testcount/ucounter1/ctmp(8)     16      0         2000       515800          200
+            /testcount/ucounter1/ctmp(7)     28      0         4000       513800          200
+            /testcount/ucounter1/ctmp(6)     48      0         8000       509800          200
+            /testcount/ucounter1/ctmp(5)     80      0        16000       501800          200
+            /testcount/ucounter1/ctmp(4)    128      0        32000       485800          200
+            /testcount/ucounter1/ctmp(3)    192      0        64000       453800          200
+            /testcount/ucounter1/ctmp(2)    256      0       128000       389800          200
+            /testcount/ucounter1/ctmp(1)    256      0       256000       261800          200
+            /testcount/ucounter1/ctmp(0)      1      0       512000         6000            0
+        /testcount/ucounter1/stmpsync(7)      2      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(6)      4      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(5)      8      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(4)     16      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(3)     32      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(2)     64      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(1)    128      0       256000       262000            0
+        /testcount/ucounter1/stmpsync(0)    256      0       256000       262000            0
+---------------------------------------------------------------------------------------------
+

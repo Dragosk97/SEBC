@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/saiftest/modelsim
+T_opt
+VWOCXQKT@fiSVYMN3cbb^e1
+04 9 4 work tbinccomp fast 0
+Z1 =1-52540093200d-5ea7d3dc-1f9fd-5033
+Z2 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.5c -sdftyp /tbinccomp/DUT=../inccomp.sdf -suppress 1948 +acc
+Z3 n@_opt
+Z4 OL;O;6.5c;42
+vinccomp
+Z5 IG`VgXR:A=8NVeRO9fB<o02
+Z6 V4XcJ@foOCTedJgI<Q8Pk@3
+Z7 w1588056607
+Z8 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/saiftest/inccomp_netlist.v
+Z9 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/saiftest/inccomp_netlist.v
+L0 2
+Z10 OL;L;6.5c;42
+r1
+31
+Z11 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z12 !s102 -nocovercells
+Z13 !s100 TKB;BzWI[7E<KI77n0Ma`1
+!s85 0
+vtbinccomp
+Z14 IPRl=2WdoT;<<gFn5aBnJ92
+Z15 VoYlC@Q[N3[aai^Y]OX^E51
+Z16 w1587364709
+Z17 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/saiftest/tb_inccomp.v
+Z18 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/saiftest/tb_inccomp.v
+L0 2
+R10
+r1
+31
+R12
+R11
+Z19 !s100 @nm[4f76`kNNF_J>c5bK;1
+!s85 0

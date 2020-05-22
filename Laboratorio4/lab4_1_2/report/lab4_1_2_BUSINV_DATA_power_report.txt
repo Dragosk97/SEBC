@@ -1,0 +1,43 @@
+
+Power Report Interval
+100000
+
+Power Report                        Node     Tc     Ti    Time At 1    Time At 0    Time At X
+---------------------------------------------------------------------------------------------
+                   /testbench/ABUSINV(7)   4975      0        50030        49970            0
+                   /testbench/ABUSINV(6)   5022      0        49455        50545            0
+                   /testbench/ABUSINV(5)   4988      0        49385        50615            0
+                   /testbench/ABUSINV(4)   4972      0        49970        50030            0
+                   /testbench/ABUSINV(3)   4961      0        51255        48745            0
+                   /testbench/ABUSINV(2)   4965      0        49900        50100            0
+                   /testbench/ABUSINV(1)   5025      0        50000        50000            0
+                   /testbench/ABUSINV(0)   5060      0        49940        50060            0
+                   /testbench/CBUSINV(7)   4974      0        50030        49970            0
+                   /testbench/CBUSINV(6)   5021      0        49455        50545            0
+                   /testbench/CBUSINV(5)   4987      0        49375        50625            0
+                   /testbench/CBUSINV(4)   4972      0        49970        50030            0
+                   /testbench/CBUSINV(3)   4959      0        51245        48755            0
+                   /testbench/CBUSINV(2)   4965      0        49885        50115            0
+                   /testbench/CBUSINV(1)   5023      0        49995        50005            0
+                   /testbench/CBUSINV(0)   5060      0        49940        50060            0
+               /testbench/COUNTBUSINV(8)   3650      0        49260        50740            0
+               /testbench/COUNTBUSINV(7)   3576      0        48810        51190            0
+               /testbench/COUNTBUSINV(6)   3612      0        49600        50400            0
+               /testbench/COUNTBUSINV(5)   3617      0        52245        47755            0
+               /testbench/COUNTBUSINV(4)   3640      0        50190        49810            0
+               /testbench/COUNTBUSINV(3)   3614      0        49690        50310            0
+               /testbench/COUNTBUSINV(2)   3601      0        50415        49585            0
+               /testbench/COUNTBUSINV(1)   3640      0        50300        49700            0
+               /testbench/COUNTBUSINV(0)   3722      0        51500        48500            0
+                           /testbench/CK  20000      0        50000        50000            0
+                          /testbench/RST      2      0            0       100000            0
+                         /testbench/A(7)   4975      0        50030        49970            0
+                         /testbench/A(6)   5022      0        49455        50545            0
+                         /testbench/A(5)   4988      0        49385        50615            0
+                         /testbench/A(4)   4972      0        49970        50030            0
+                         /testbench/A(3)   4961      0        51255        48745            0
+                         /testbench/A(2)   4965      0        49900        50100            0
+                         /testbench/A(1)   5025      0        50000        50000            0
+                         /testbench/A(0)   5060      0        49940        50060            0
+---------------------------------------------------------------------------------------------
+

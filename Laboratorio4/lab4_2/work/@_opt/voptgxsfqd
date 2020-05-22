@@ -1,0 +1,82 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2
+T_opt
+Z1 VoCUhi7VM<@b1^EN88<4RL0
+Z2 04 9 4 work testbench fast 0
+Z3 =1-52540093200d-5eba56e6-b00c8-7ab7
+Z4 o-quiet -auto_acc_if_foreign -work work -L /software/dk/nangate45/verilog/msim6.5c -sdftyp /testbench/UBUSNORM=busnormal.sdf -sdftyp /testbench/UBUSINV=businvbeh.sdf -sdftyp /testbench/UBUSTRAN=transbased.sdf -sdftyp /testbench/UBUSGRAY=grayencoder.sdf -suppress 1948 +acc
+Z5 n@_opt
+Z6 OL;O;6.5c;42
+vbusinvbeh
+Z7 II:zZ`5T@7>3>aA78<[JaJ3
+Z8 Vh2^GnA2?Oj=2JE?HHj1Jm1
+Z9 w1589268567
+Z10 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v
+Z11 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v
+L0 2
+Z12 OL;L;6.5c;42
+r1
+31
+Z13 !s102 -nocovercells
+Z14 o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+Z15 !s100 EiIWz4J^o84`_P3z<QKIe1
+!s85 0
+vbusnormal
+Z16 IhL5YfC[iQ>OO5kMNV9>m^3
+Z17 VRa3OZ`PXSAi2P@[SVUThA0
+Z18 w1589268558
+Z19 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v
+Z20 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v
+L0 2
+R12
+r1
+31
+R13
+R14
+Z21 !s100 KIR^I9]cmJ3EB4Y=L=fCa1
+!s85 0
+vgrayencoder
+Z22 IgX@_R7X8mPJMI;SO??Pf:3
+Z23 VRQ4m1^D23ko_mP:cWNOc_0
+Z24 w1589268578
+Z25 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v
+Z26 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v
+L0 2
+R12
+r1
+31
+R14
+R13
+Z27 !s100 ddh0c_d^dPKEGDh;^1?cV0
+!s85 0
+vtestbench
+Z28 IBolA;?iUMa8:=kbEb<d=S1
+Z29 VnNUi1I]nGnNm]<MLYAjLG1
+Z30 w1589270030
+Z31 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/vhd/tb_encdec.v
+Z32 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/vhd/tb_encdec.v
+L0 4
+R12
+r1
+31
+R13
+R14
+Z33 !s100 RcAoGhQiVJhJj4zT1dib_2
+!s85 0
+vtransbased
+Z34 IAAB[gO1BZnA922keYhCbF1
+Z35 V:32;R[<QJK>H6`5KInGQ93
+Z36 w1589268572
+Z37 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v
+Z38 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v
+L0 2
+R12
+r1
+31
+R13
+R14
+Z39 !s100 7z566N0;V0E0LiC5K`iTz2
+!s85 0

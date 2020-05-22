@@ -1,0 +1,123 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1
+Ccfg_ckgbug_test
+atest
+eckgbug
+Z1 DEx4 work 2 fd 0 22 bG2dXfE`Fo>HFh3jAS47G3
+DCx4 work 12 cfg_fd_pluto 0 22 znSd1`<4c_;h5^9ScPfLA2
+DAx4 work 6 ckgbug 4 test 22 <XR_W;SW;RbHD75g4[OLN3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 DEx4 work 6 ckgbug 0 22 YBafa[[`Sz=TjcS@9F4`91
+Z4 w1587458207
+Z5 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd
+Z6 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd
+l0
+L62
+V]Cml0m7WfFXhdDd>R:`6a1
+Z7 OL;C;6.5c;42
+32
+Z8 Mx1 4 ieee 14 std_logic_1164
+Z9 o-work work -2002 -explicit
+Z10 tExplicit 1
+!s100 P?j`dV5=@Fm4ZzdW7>CDF3
+Ccfg_fd_pippo
+apippo
+efd
+DAx4 work 2 fd 5 pippo 22 MT08ke;c3R8U4VfUIK^l?0
+R2
+R1
+Z11 w1587457626
+Z12 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/fd.vhd
+Z13 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/fd.vhd
+l0
+L44
+V2VVTFnFT0M0PVcQ:g<cB21
+R7
+32
+R8
+R9
+R10
+!s100 IC;L@nmI5D^J^af;ej@EZ3
+Ccfg_fd_pluto
+apluto
+efd
+DAx4 work 2 fd 5 pluto 22 =FnR_UKfhco<Tl?I>H1kj0
+R2
+R1
+R11
+R12
+R13
+l0
+L50
+VznSd1`<4c_;h5^9ScPfLA2
+R7
+32
+R8
+R9
+R10
+!s100 2Y?JInhFjo4=Ok4dSHnaB3
+Eckgbug
+R4
+R2
+R5
+R6
+l0
+L5
+VYBafa[[`Sz=TjcS@9F4`91
+R7
+32
+R9
+R10
+!s100 X]:nlG[8z:dh2EoTCARAQ3
+Atest
+R2
+R3
+32
+R8
+l31
+L8
+V<XR_W;SW;RbHD75g4[OLN3
+R7
+R9
+R10
+!s100 9LGgOi^]<SmiHL?bIbP@M1
+Efd
+R11
+R2
+R12
+R13
+l0
+L4
+VbG2dXfE`Fo>HFh3jAS47G3
+R7
+32
+R9
+R10
+!s100 KD6C4jB[heafQZEbP?[5@3
+Apluto
+R2
+R1
+32
+R8
+l30
+L28
+V=FnR_UKfhco<Tl?I>H1kj0
+R7
+R9
+R10
+!s100 H=LEhWd3:iHjfb5???B^O1
+Apippo
+R2
+R1
+l14
+L12
+VMT08ke;c3R8U4VfUIK^l?0
+R7
+32
+R8
+R9
+R10
+!s100 `8JifU86zYe>Ic>Gjij^=2

@@ -1,0 +1,175 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project test_t0
+# reading modelsim.ini
+# Loading project test_t0
+# Compile of busT0.vhd was successful.
+# Compile of tb_encdec.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of busT0.vhd was successful.
+# Compile of tb_encdec.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim work.testbench
+# vsim work.testbench 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(9): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(10): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(11): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(12): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(13): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(14): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(15): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(16): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(17): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(18): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(19): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(20): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(21): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(22): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(23): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(24): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSNORM_.v(25): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(16): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(17): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(18): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(19): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(20): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(21): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(22): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(23): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(24): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(25): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(26): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(27): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(28): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(29): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(30): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(31): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(32): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(34): Module 'HA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(36): Module 'HA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(37): Module 'HA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(39): Module 'FA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(42): Module 'FA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(44): Module 'FA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(46): Module 'FA_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(47): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(48): Module 'AND2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(49): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(50): Module 'AND2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(51): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(52): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(53): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(54): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(55): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(56): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(57): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(58): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(59): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(60): Module 'NOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(61): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(62): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(63): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(64): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(65): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(66): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(67): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(68): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(69): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(70): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(71): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(72): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(73): Module 'MUX2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(74): Module 'AOI21_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(75): Module 'OR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(76): Module 'AOI211_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(77): Module 'NAND2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(78): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(79): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(80): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(81): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(82): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(83): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSINV_.v(84): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(11): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(12): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(13): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(14): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(15): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(16): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(17): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(18): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(19): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(20): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(21): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(22): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(23): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(24): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(25): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(26): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(27): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(28): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(29): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(30): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(31): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(32): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(33): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(34): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(35): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(36): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(37): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(38): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(39): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(40): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(41): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(42): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(43): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(44): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(45): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(46): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(47): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(48): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(49): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(50): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSTRAN_.v(51): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(10): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(11): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(12): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(13): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(14): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(15): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(16): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(17): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(18): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(19): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(20): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(21): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(22): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(23): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(24): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(25): Module 'DFFR_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(26): Module 'INV_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(27): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(28): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(29): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(30): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(31): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(32): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(33): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(34): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(35): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(36): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(37): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(38): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(39): Module 'XOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/fromsynopsys_BUSGRAY_.v(40): Module 'XNOR2_X1' is not defined.
+# ** Error: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_2/vhd/busT0.vhd(14): Vopt Compiler exiting
+# Error loading design

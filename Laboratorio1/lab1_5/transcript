@@ -8,18 +8,19 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-# Project file /home/lp20.17/Desktop/Laboratori/Laboratorio1/lab1_4/lab1_1_4.mpf was not found.
-# Unable to open project.
 # Loading project lab1_5
-compile help
-# wrong # args: should be "compile w cmd args"
 # Compile of counter.vhd was successful.
 # Compile of fd.vhd was successful.
 # Compile of ha.vhd was successful.
 # Compile of tb_counter.vhd was successful.
 # 4 compiles, 0 failed with no errors. 
-vsim -t 10ps -novopt work.testcount
-# vsim -t 10ps -novopt work.testcount 
+do wsc.do
+# Compile of counter.vhd was successful.
+# Compile of fd.vhd was successful.
+# Compile of ha.vhd was successful.
+# Compile of tb_counter.vhd was successful.
+# 4 compiles, 0 failed with no errors. 
+# vsim -t ps -novopt work.testcount(test) 
 # Loading std.standard
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.numeric_std(body)
@@ -31,9 +32,7 @@ vsim -t 10ps -novopt work.testcount
 # Loading work.ha(behavioral)
 # Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/work.fd(pluto)
 # Loading work.fd(pluto)
-power add /testcount/UCOUNTER1/*
-run 520 ns
-do wave_1_5.do
-run 520 ns
+add wave sim:/testcount/ucounter1/*
 restart
-run 520 ns
+run 518ns
+quit -sim

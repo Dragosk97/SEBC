@@ -1,6 +1,10 @@
 #@ # 
 #@ # Running dc_shell Version F-2011.09-SP3 for amd64 -- Jan 26, 2012
+<<<<<<< Updated upstream
 #@ # Date:   Wed Apr 15 15:38:50 2020
+=======
+#@ # Date:   Tue Apr 21 11:35:32 2020
+>>>>>>> Stashed changes
 #@ # Run by: lp20.17@localhost.localdomain
 #@ 
 
@@ -4772,6 +4776,7 @@ source /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/.synopsys_
 #@ # -- End source /home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/.synopsys_dc.setup
 
 gui_start
+<<<<<<< Updated upstream
 read_file -format ddc {/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/ADDER-simple.ddc}
 change_selection [get_s ADDER]
 change_selection 
@@ -5027,3 +5032,34 @@ set_max_dynamic_power 1000000
 report_constraints
 compile -exact_map
 man compile -exact_map
+=======
+read_file -format ddc {/home/lp20.17/Public/Desktop/Laboratori/Laboratorio2/2_1/synth/adder.ddc}
+compile -exact_map
+set_max_dynamic_power 53000000
+report_constraints
+change_selection [get_s {{Y[6]}}]
+report_constraint
+change_selection [get_s {{A[3]}}]
+change_selection [get_s {{A[2]} {A[3]}}]
+set_max_report_power
+report_power
+set_max_dynamic_power 53000000
+report_constrints
+report_constraints
+set_max_dynamic_power 53
+report_constraint
+compile -exact_map
+report_power
+report_constraint
+compile -exact_map -power_effort high
+report_power
+compile_ultra
+report_power
+report_constraints
+set_max_dynamic_power 53000000
+compile -exact_map
+report_power
+compile_ultra
+report_power
+ma tgz???cazzo non riuscivo a parlare con riente
+>>>>>>> Stashed changes

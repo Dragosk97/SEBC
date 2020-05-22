@@ -1,0 +1,53 @@
+/home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/counter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/counter.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity count
+-- Compiling architecture structural of count
+-- Compiling configuration cfg_count_structural
+-- Loading entity count
+-- Loading architecture structural of count
+-- Loading entity ha
+-- Loading entity fd
+-- Loading configuration cfg_ha_behavioral
+-- Loading configuration cfg_fd_pluto
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/ha.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/ha.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity ha
+-- Compiling architecture behavioral of ha
+-- Compiling configuration cfg_ha_behavioral
+-- Loading entity ha
+-- Loading architecture behavioral of ha
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/tb_counter.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/tb_counter.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Loading package numeric_std
+-- Compiling entity testcount
+-- Compiling architecture test of testcount
+-- Compiling configuration cfg_testcount
+-- Loading entity testcount
+-- Loading architecture test of testcount
+-- Loading entity count
+-- Loading configuration cfg_count_structural
+
+} {} {}} /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/fd.vhd {1 {vcom -work work -2002 -explicit -vopt /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_5/vhd/fd.vhd
+Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+-- Loading package standard
+-- Loading package std_logic_1164
+-- Compiling entity fd
+-- Compiling architecture pippo of fd
+-- Compiling architecture pluto of fd
+-- Loading entity fd
+-- Compiling configuration cfg_fd_pippo
+-- Loading entity fd
+-- Loading architecture pippo of fd
+-- Compiling configuration cfg_fd_pluto
+-- Loading entity fd
+-- Loading architecture pluto of fd
+
+} {} {}}

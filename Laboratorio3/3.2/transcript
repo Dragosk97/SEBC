@@ -1,0 +1,68 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lab2
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project 3_2_sim
+# Compile of inccomp.vhd was successful.
+# Compile of tb_inccomp.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.tbinccomp
+# vsim -t ps -novopt work.tbinccomp 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.tbinccomp
+# Loading work.tbinccomp
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio1/lab1_2/vsim/work.inccomp(behavioral)
+# Loading work.inccomp(behavioral)
+vsim -t ps -novopt work.tbinccomp
+# vsim -t ps -novopt work.tbinccomp 
+# Loading work.tbinccomp
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.inccomp(behavioral)
+add wave sim:/tbinccomp/*
+add wave *
+run 100 ns
+add wave \
+{sim:/tbinccomp/DUT/syncha } \
+{sim:/tbinccomp/DUT/synchb } 
+end
+# wrong # args: should be "endpoint_image option ?arg arg ...?"
+end simultion
+# bad option "simultion": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+end simulation
+# bad option "simulation": must be blank, cget, configure, copy, data, get, put, read, redither, transparency, or write
+quit -sim
+vsim -t ps -novopt work.tbinccomp
+# vsim -t ps -novopt work.tbinccomp 
+# Loading work.tbinccomp
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_signed(body)
+# Loading work.inccomp(behavioral)
+add wave*
+# wrong number of args for "add wave*".
+# Usage: add wave [-allowconstants] [-clampanalog [0|1]] [-color <standard_color_name>] [-depth <level>] [-divider <divider_name>...] [-expand <signal_name>] [-<format>] [-group <group_name> [<sig_name1>...]] [-height <pixels>] [[-in] [-out] [-inout] | [-ports]] [-internal] [-label <name>] [-max <real_num>] [-min <real_num>] [-noupdate] [-optcells] [-position] [-radix <type> | <radix_type>] [-radixenumnumeric | -radixenumsymbolic] [-recursive] [-time] [-window <wname>] [<object_name>...] [{<object_name> {sig1 sig2 sig3 ...}}] 
+add wave *
+add wave \
+{sim:/tbinccomp/DUT/c } \
+{sim:/tbinccomp/DUT/ck } \
+{sim:/tbinccomp/DUT/rst } \
+{sim:/tbinccomp/DUT/inca } \
+{sim:/tbinccomp/DUT/incb } \
+{sim:/tbinccomp/DUT/syncha } \
+{sim:/tbinccomp/DUT/synchb } 
+run 100 ns

@@ -1,0 +1,150 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project businv_DATA
+do tr_based.do
+# ** Error: A project is already open.
+# Error in macro ./mnp.do line 1
+# A project is already open.
+#     while executing
+# "project new /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2 $1"
+close project
+# can not find channel named "project"
+project close
+# reading modelsim.ini
+do tr_based.do
+# Loading project transbased_DATA
+# Compile of transbased.vhd was successful.
+# Compile of tb_encdec_transbased_DATA.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.transbased(behavioral)
+# Loading work.transbased(behavioral)
+# ** Error: can't read "1_power_report": no such variable
+# Error in macro ./power_report.do line 4
+# can't read "1_power_report": no such variable
+#     while executing
+# "power report -file lab4_1_2_$1_power_report.txt"
+project close
+quit -sim
+project close
+# reading modelsim.ini
+do tr_based.do
+# Loading project transbased_DATA
+# Compile of transbased.vhd was successful.
+# Compile of tb_encdec_transbased_DATA.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.transbased(behavioral)
+# Loading work.transbased(behavioral)
+# ** Error: can't read "1_power_report": no such variable
+# Error in macro ./power_report.do line 4
+# can't read "1_power_report": no such variable
+#     while executing
+# "power report -file lab4_1_2_$1_power_report.txt"
+quit -sim
+project close
+# reading modelsim.ini
+do tr_based.do
+# Loading project transbased_DATA
+# Compile of transbased.vhd was successful.
+# Compile of tb_encdec_transbased_DATA.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.transbased(behavioral)
+# Loading work.transbased(behavioral)
+# reading modelsim.ini
+# Loading project transbased_ADDRESS
+# Compile of transbased.vhd was successful.
+# Compile of tb_encdec_transbased_ADDRESS.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.transbased(behavioral)
+# Loading work.transbased(behavioral)
+# reading modelsim.ini
+do grayenc.do
+# Loading project gray_DATA
+# Compile of tb_encdec_gray_DATA.v was successful.
+# 1 compiles, 1 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# ** Error: (vsim-3033) /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/tb_encdec_gray_DATA.v(35): Instantiation of 'grayencoder' failed. The design unit was not found.
+#         Region: /testbench
+#         Searched libraries:
+#             /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./power_report.do PAUSED at line 1
+resume
+# No Design!
+# ** Warning: (vsim-8431) The 'power add' command works only on nets/signals
+# 
+# ** Error: No Design Loaded!
+# Error in macro ./power_report.do line 3
+# No Design Loaded!
+#     while executing
+# "run 100 us"
+project close
+# reading modelsim.ini
+do grayenc.do
+# Loading project gray_DATA
+# Compile of grayencoder.vhd was successful.
+# Compile of tb_encdec_gray_DATA.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.grayencoder(behavioral)
+# Loading work.grayencoder(behavioral)
+# reading modelsim.ini
+# Loading project gray_ADDRESS
+# Compile of grayencoder.vhd was successful.
+# Compile of tb_encdec_gray_ADDRESS.v was successful.
+# 2 compiles, 0 failed with no errors. 
+# vsim -t ns -novopt work.testbench 
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.testbench
+# Loading work.testbench
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/work.grayencoder(behavioral)
+# Loading work.grayencoder(behavioral)
+# reading modelsim.ini

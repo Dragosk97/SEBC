@@ -1,0 +1,103 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading project lab2
+# reading /software/mentor/modelsim_6.5c/modeltech/linux_x86_64/../modelsim.ini
+# Loading project simulazione
+# Compile of ckgbug.vhd failed with 1 errors.
+# Compile of fd.vhd was successful.
+# 2 compiles, 1 failed with 1 error. 
+# Compile of fd.vhd was successful.
+# Compile of ckgbug.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.ckgbug
+# vsim -novopt work.ckgbug 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.ckgbug(test)
+# Loading work.ckgbug(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.fd(pluto)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ns  Iteration: 0  Process: /ckgbug/line__46 File: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd
+# Fatal error in Architecture test at /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd line 46
+# 
+# HDL call sequence:
+# Stopped at /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd 46 Architecture test
+# 
+quit -sim
+# Compile of fd.vhd was successful.
+# Compile of ckgbug.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -novopt work.ckgbug(test)
+# vsim -novopt work.ckgbug(test) 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.ckgbug(test)
+# Loading work.ckgbug(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.fd(pluto)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ns  Iteration: 0  Process: /ckgbug/line__46 File: /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd
+# Fatal error in Architecture test at /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd line 46
+# 
+# HDL call sequence:
+# Stopped at /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/vhd/ckgbug.vhd 46 Architecture test
+# 
+quit -sim
+vsim -t ps -novopt work.ckgbug
+# vsim -t ps -novopt work.ckgbug 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.ckgbug(test)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns
+quit -sim
+# Compile of fd.vhd was successful.
+# Compile of ckgbug.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t ps -novopt work.ckgbug
+# vsim -t ps -novopt work.ckgbug 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.ckgbug(test)
+# Loading work.ckgbug(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.fd(pluto)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns
+quit -sim
+vsim -t 100fs -novopt work.ckgbug
+# vsim -t 100fs -novopt work.ckgbug 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading work.ckgbug(test)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns
+quit -sim
+# Compile of fd.vhd was successful.
+# Compile of ckgbug.vhd was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -t 100fs -novopt work.ckgbug
+# vsim -t 100fs -novopt work.ckgbug 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.ckgbug(test)
+# Loading work.ckgbug(test)
+# Refreshing /home/lp20.17/Public/Desktop/Laboratori/Laboratorio3/3.1/work.fd(pluto)
+# Loading work.fd(pluto)
+add wave *
+run 10 ns

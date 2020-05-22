@@ -1,0 +1,112 @@
+m255
+K3
+13
+cModel Technology
+Z0 d/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2
+Ebusinvbeh
+Z1 w1588661586
+Z2 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/businvbeh.vhd
+Z6 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/businvbeh.vhd
+l0
+L6
+VHZ9dbHi8M>LH^U_jTllgB2
+Z7 OL;C;6.5c;42
+32
+Z8 o-work work -2002 -explicit
+Z9 tExplicit 1
+!s100 giD8GKg@V5D3IX:f47OI;3
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 businvbeh 0 22 HZ9dbHi8M>LH^U_jTllgB2
+32
+Z10 Mx3 4 ieee 14 std_logic_1164
+Z11 Mx2 4 ieee 18 std_logic_unsigned
+Z12 Mx1 4 ieee 15 std_logic_arith
+l20
+L14
+V]BXM9kZ]zEIShOU]I;JKA2
+R7
+R8
+R9
+!s100 h^Xj=lnDB0ne53SX<EHl80
+Egrayencoder
+R1
+R2
+R3
+R4
+Z13 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/grayencoder.vhd
+Z14 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/grayencoder.vhd
+l0
+L6
+VfTHYCDOTBeML`01EbjD@R2
+R7
+32
+R8
+R9
+!s100 5LYkH?@lZ1;hSW[[H?QSh3
+Abehavioral
+R2
+R3
+R4
+DEx4 work 11 grayencoder 0 22 fTHYCDOTBeML`01EbjD@R2
+32
+R10
+R11
+R12
+l17
+L14
+V^hM4aR@glPKgV@Gd<mhXn2
+R7
+R8
+R9
+!s100 ZB:C80^Ka=CP?U@0Z?k_03
+vtestbench
+VnNUi1I]nGnNm]<MLYAjLG1
+r1
+31
+IzF:]?J]7YODnA<:g>8;QP0
+w1589020108
+8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/tb_encdec_gray_ADDRESS.v
+F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/tb_encdec_gray_ADDRESS.v
+L0 4
+OL;L;6.5c;42
+o-work work -nocovercells -L mtiAvm -L mtiOvm -L mtiUPF
+!s85 0
+!s100 53W4l;;bGQkzo=iBOK8NI3
+!s102 -nocovercells
+Etransbased
+Z15 w1589017840
+R2
+R3
+R4
+Z16 8/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/transbased.vhd
+Z17 F/home/lp20.17/Public/Desktop/Laboratori/Laboratorio4/lab4_1_2/vhd/transbased.vhd
+l0
+L6
+VUmbGZ;TcH2SA2N`SMKVbE1
+R7
+32
+R8
+R9
+!s100 QZO=>cT0YglfclX7iYW^n0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 10 transbased 0 22 UmbGZ;TcH2SA2N`SMKVbE1
+32
+R10
+R11
+R12
+l17
+L14
+VXWDIGK?9T3c@m9X`JTZ4W3
+R7
+R8
+R9
+!s100 WmnE=z433CfanSTk>hLf:3
